@@ -1,10 +1,13 @@
 {
-  "name": "nagad-locker",
+  "name": "bkash-bomber",
   "version": "1.0.0",
-  "main": "api/index.js",
+  "description": "bKash bomber API hosted on Vercel (no api folder)",
+  "main": "index.js",
   "scripts": {
-    "start": "node api/index.js"
+    "start": "vercel dev"
   },
+  "author": "Tofazzal Hossain",
+  "license": "MIT",
   "dependencies": {
     "axios": "^1.6.5"
   }
