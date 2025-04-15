@@ -1,14 +1,12 @@
 {
   "name": "bkash-bomber",
   "version": "1.0.0",
-  "description": "bKash bomber API hosted on Vercel (no api folder)",
-  "main": "index.js",
+  "description": "bKash bomber using API folder on Vercel",
+  "main": "api/lock-bkash.js",
   "scripts": {
     "start": "vercel dev"
   },
   "author": "Tofazzal Hossain",
   "license": "MIT",
-  "dependencies": {
-    "axios": "^1.6.5"
-  }
+  "dependencies": {}
 }
