@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/lock-bkash.js",
+      "src": "index.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
-      "src": "/",
-      "dest": "api/lock-bkash.js"
+      "src": "/(.*)",
+      "dest": "index.js"
     }
   ]
 }
